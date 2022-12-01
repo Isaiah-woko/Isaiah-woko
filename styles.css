@@ -1,0 +1,304 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* Headings */
+.big-heading {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    color: #EF9A53;
+}
+
+
+
+/* Nav Bar */
+.navbar {
+    background-color: #000000;
+}
+
+.btn {
+    border-color: #EF9A53;
+    color: #EF9A53;
+}
+
+.btn:hover {
+    background-color: #EF9A53;
+    color: #fff;
+}
+
+.navbar-brand {
+    padding-left: 6%;
+}
+    
+    
+
+.nav-img {
+    border-radius: 100%;
+}
+
+
+.navbar-toggler {
+    background-color: #EF9A53;
+}
+
+.nav-link {
+    color: white;
+    margin: 5px 15px 0;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #EF9A53;
+}
+
+/* Title Section */
+.bg-title {
+    background-image: url("Images/bg-image.jpg");
+  background-color: #EF9A53;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.title-text {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* About Me Section */
+#about-me {
+    background-color: #2C3639;
+    padding: 7% 15%;
+    
+}
+
+.about-me-text {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+hr {
+    border: 2px solid;
+    color: #fff;
+    width: 7%;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 60%;
+    margin-left: 50px;
+    padding-left: 30px;
+}
+
+/* Services Section */
+
+#services {
+    background-color: #393E46;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+.card {
+    background-color: #393E46;
+    color: #fff;
+}
+
+.card-column {
+    padding: 3% 2%;
+}
+
+/* Review Section */
+#reviews {
+    background-color: #2C3639;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+.review-text {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+
+.review-image {
+    border-radius: 100px;
+    margin-left: 250px;
+    
+}
+    
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Form Section  */
+#forms {
+    background-color: #393E46; 
+    padding: 7% 15%;
+}
+
+.form-text {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.btn-form {
+    margin-top: 20px;
+}
+
+.say-hello {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.hello-text {
+    color: #000000;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+/* Footer Section */
+#footer {
+    background-color: #2C3639;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    color: #EF9A53;
+    margin: 25px 15px;
+}
+
+.social-icon:hover {
+    color: #FFBF00;
+}
+
+ 
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .title-text {
+        font-size: 25px;
+    }
+
+    #about-me {
+        padding-top: 0px;
+    }
+
+    .about-me-text {
+        font-size: 30px;
+    }
+
+    .about-image {
+        max-width: 80%;
+
+    } 
+
+    
+    .review-image {
+        border-radius: 100px;
+        margin-left: 50px;
+        
+    }
+
+    .card-body {
+        font-size: 30px;
+    }
+
+    .form-text {
+        font-size: 30px;
+    }
+
+    #forms {
+        padding: 3% 7%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .title-pg {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .about-me-text {
+        font-size: 20px;
+    }
+
+    .title-text {
+        font-size: 20px;
+    }
+
+    .about-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 99%;
+    } 
+    
+    .card-body {
+        font-size: 20px;
+    }
+
+    .review-image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .review-text {
+        font-size: 1rem;
+        margin-left: 20px;
+        line-height: 1.5;
+        font-style: italic;
+        padding-top: 30px;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+       
+    .em-text {
+        font-size: 17px;
+        text-align: center
+    }
+
+    .form-text {
+        font-size: 20px;
+    }
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
