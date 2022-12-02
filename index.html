@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=none">
     <meta name="author" content="Isaiah Woko">
     <meta name="keywords" content="isaiah woko, portfolio, frontend website">
 
@@ -39,6 +39,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#FAQ">FAQ</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -118,11 +121,11 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <h2 class="review-text">His unique web design UI is top notch and its very mobile reponsive and attracts customers.</h2>
-              <img src="lady-img.jpg" class="review-image" width="90" height="90" alt="image of shulammite"><em class="em-text">Shulammite, Nigeria</em>
+              <img src="shulammite.jpg" class="review-image" width="90" height="90" alt="image of shulammite"><em class="em-text">Shulammite, Nigeria</em>
             </div>
             <div class="carousel-item">
               <h2 class="review-text">His graphic design prowess is excellent. His results are top class</h2>
-              <img src="lady-img.jpg" class="review-image" width="90" height="90" alt="image of precious"><em class="em-text">Precious, Nigeria</em>
+              <img src="precious.jpg" class="review-image" width="90" height="90" alt="image of precious"><em class="em-text">Precious, Nigeria</em>
             </div>
             
           </div>
@@ -137,15 +140,62 @@
         </div>
       </section>
 
+      <section id="FAQ">
+        <div>
+          <h2>FAQ</h2>
+          <hr>
+        </div>
+
+        <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          What Type Of Website Do You Build?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        I specialize in building frontend features for all type of websites and they are all 100% responsive to all devices.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        How Do I View Your Portfolio?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       There is a link to my dribble account at the bottom of the website as well as a link too, to all my social media handles.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        What Other Services Do You Offer?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        I also offer digital marketing services such as <em>Brand Promotion,</em> <em>Online Ads</em> and other services to help bring your buisness online.
+      </div>
+    </div>
+  </div>
+</div>
+      </section>
+
 
 <section id="forms">
   <div>
     <h2>Get In Touch</h2>
     <hr>
     <div class="container-fluid">
-    <p class="form-text">If you have a project that you want to get started with,think you need my help, or just fancy saying Hi, then get in touch</p>
+    <p class="form-text">If you have a project that you want to get started with,think you need my help, or just fancy saying hi, then get in touch</p>
   </div>
-  <form action="https://formcarry.com/s/d_r5VMGvw" method="POST" accept-charset="UTF-8">
+  
+  <form action="#">
     <div class="form-floating mb-3">
       <input type="name" class="form-control form-control-lg" id="floatingInput" placeholder="Full Name">
       <label for="floatingInput">Full Name</label>
@@ -160,6 +210,7 @@
         <label for="floatingTextarea2">Message</label>
       </div>
         <input class="btn btn-lg btn-form"  type="submit" value="Submit" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .99rem;">
+        <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
    </div>
   </form>
 </div>
@@ -167,7 +218,7 @@
   <h2 class="hello-text">Say Hello</h2>
   <p>+234-813-993-6089<p>
   <p>+234-819-911-8790</p>
-  <a href="mailto; wokoisaiah68@gmail.com">wokoisaiah68@gmail.com</a>
+  <a href="mailto:wokoisaiah68@mail.com">wokoisaiah68@gmail.com</a>
 </div>
 
 </section>
@@ -177,10 +228,11 @@
   <a href="https://www.facebook.com/isaiah.woko"><i class="social-icon fa-brands fa-facebook-f"></i></a>
   <a href="https://twitter.com/isaiah_woko18"><i class="social-icon fa-brands fa-twitter"></i></a>
   <a href=""><i class="social-icon fa-brands fa-instagram"></i></a>
+  <p class="copyright">© 2022 Isaiah Woko.</p>
 </footer>
       
 
-
+<script src="https://carrier.formcarry.com/js/v1.js"></script>
       <!-- bootstrap javascript -->
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>

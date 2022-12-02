@@ -65,7 +65,7 @@ p {
 
 /* Title Section */
 .bg-title {
-    background-image: url("Images/bg-image.jpg");
+    background-image: url("bg-image.jpg");
   background-color: #EF9A53;
   height: 500px;
   background-position: center;
@@ -150,9 +150,18 @@ hr {
     padding: 7% 15%;
 }
 
+/* FAQ section */
+#FAQ {
+    background-color: #393E46;
+    padding: 7% 15%;
+}
+
+
+
+
 /* Form Section  */
 #forms {
-    background-color: #393E46; 
+    background-color: #2C3639; 
     padding: 7% 15%;
 }
 
@@ -182,7 +191,7 @@ hr {
 
 /* Footer Section */
 #footer {
-    background-color: #2C3639;
+    background-color: #393E46;
     padding: 7% 15%;
     text-align: center;
 }
@@ -194,6 +203,10 @@ hr {
 
 .social-icon:hover {
     color: #FFBF00;
+}
+
+.copyright {
+    color: #EF9A53;
 }
 
  
