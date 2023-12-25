@@ -7,10 +7,6 @@ I'm a passionate software engineering enthusiasts with a deep love for technolog
 
 🌱 Always learning and experimenting, I'm excited about software development. I believe in the power of collaboration and open source, and I'm eager to contribute to projects that make a difference.
 
-## 💼 Current Work
-
-- 🔍 [Current Job/Role] at [Current Company] - [Brief Description]
-
 ## 🌱 What I'm Working On
 
 - 🚀 currently working on a software engineering couse offered by ALX
