@@ -13,8 +13,8 @@ I'm a passionate software engineering enthusiasts with a deep love for technolog
 
 ## 🔧 Tech Stack
 
-- **Languages**: CSS, HTML, JAVASCRIPT, C..
-- **Frameworks**: BOOTSTRAP
+- **Languages**: CSS, HTML, JAVASCRIPT, C, PYTHON, MYSQL...
+- **Frameworks**: BOOTSTRAP, FLASK...
 
 ## 🤝 Let's Connect
 
