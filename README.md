@@ -20,6 +20,6 @@ I'm a passionate software engineering enthusiasts with a deep love for technolog
 
 ## 📊 GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Isaiah-woko&show_icons=true&count_private=true&hide=contribs,prs)
+[![My GitHub stats](https://github-stats-extended.vercel.app/api?username=Isaiah-woko)](https://github.com/stats-organization/github-stats-extended)
 
 Feel free to explore my repositories and reach out for collaboration or discussions. Let's build something amazing together! 🚀
